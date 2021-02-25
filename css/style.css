@@ -17,9 +17,6 @@ h1, {
 	font-weight: 300;
 }
 
-h2{
-	font-weight: 300;
-}
 
 #wrapper {
 	margin: 2em auto;
@@ -27,17 +24,57 @@ h2{
 }
 
 #main {
-	background: red;
+	background: #333;
 	margin: 2em;
 	padding: 2em;
 }
 
 #sidebar {
-	background: pink;
+	background: white;
+}
+
+#logo {
+	padding: 3em 0;
+}
+
+#logo h1 {
+	margin: 0;
+}
+
+#logo img, .item img {
+	width: 100%;
+	height: auto;
+}
+
+.item img{
+	margin-bottom: 2em;
 }
 
 #content {
-	background: blue;
+	/*background: red;*/
+}
+
+#nav ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+#nav li {
+	margin-bottom: 1em;
+}
+
+.quote-holder {
+	height: 40vh;
+	background: brown;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 3em;
+}
+
+.quote {
+	font-size: 2em
 }
 
 @media (max-width: 699px) {
@@ -50,4 +87,19 @@ h2{
 		margin:1em;
 		padding: 0em;
 	}
+	#logo {
+		text-align: center;
+		padding: 2em 0;
+	}
+	nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
+#nav li {
+	display: inline;
+	padding: .25em;
+	background: purple;
+	margin-bottom: 0;
+}
+
 }
