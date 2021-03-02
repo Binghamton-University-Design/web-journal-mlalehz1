@@ -2,9 +2,9 @@
 
 body{
 	margin: 0;
-	background: black;
+	background: url('../images/space.png');
 	color: white;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Amaranth', sans-serif;
 	font-weight: 200;
 }
 
@@ -17,20 +17,25 @@ h1, {
 	font-weight: 300;
 }
 
+h2, {
+	font-weight: 300;
+	font-style: italic;
+}
 
 #wrapper {
 	margin: 2em auto;
 	max-width: 1200px
+	padding: 0 20px;
 }
 
 #main {
-	background: #333;
+	background: black;
 	margin: 2em;
 	padding: 2em;
 }
 
 #sidebar {
-	background: white;
+	/*background: gray;*/
 }
 
 #logo {
@@ -57,7 +62,7 @@ h1, {
 #nav ul {
 	list-style: none;
 	padding-left: 0;
-	margin: 0;
+	margin: 0
 }
 
 #nav li {
@@ -91,14 +96,15 @@ h1, {
 		text-align: center;
 		padding: 2em 0;
 	}
-	nav ul {
+	#nav ul {
 		display: flex;
 		justify-content: space-between;
 	}
-#nav li {
+	#nav li {
 	display: inline;
 	padding: .25em;
-	background: purple;
+	color: white;
+	background: black;
 	margin-bottom: 0;
 }
 
