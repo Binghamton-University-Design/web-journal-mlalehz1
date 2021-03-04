@@ -3,6 +3,8 @@
 body{
 	margin: 0;
 	background: url('../images/space.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: white;
 	font-family: 'Amaranth', sans-serif;
 	font-weight: 200;
@@ -67,6 +69,16 @@ h2, {
 
 #nav li {
 	margin-bottom: 1em;
+}
+
+#nav li a{
+	color: white;
+	transition: all .3s ease-in-out;
+}
+
+#nav li a:hover{
+	color: gray;
+	text-decoration: none;
 }
 
 .quote-holder {
