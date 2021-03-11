@@ -3,7 +3,7 @@
 body{
 	margin: 0;
 	background: url('../images/space.png');
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-size: cover;
 	color: white;
 	font-family: 'Amaranth', sans-serif;
@@ -82,12 +82,12 @@ h2, {
 }
 
 .quote-holder {
-	height: 40vh;
-	background: brown;
+	height: 70vh;
+	background: black;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 0 3em;
+	padding: 0 2em;
 }
 
 .quote {
@@ -118,6 +118,6 @@ h2, {
 	color: white;
 	background: black;
 	margin-bottom: 0;
-}
+	}
 
 }
