@@ -91,20 +91,20 @@ h1, h2 {
 }
 
 
-#equisite {
+#exquisite {
 	position: relative;
 	margin-bottom: 2em;
 }
 
-#equisite .grid {
+#exquisite .grid {
 	grid-gap: 0;
 }
 
-#equisite .grid img {
+#exquisite .grid img {
 	margin-bottom: 0;
 }
 
-#equisite .content{
+#exquisite .content{
 	position: absolute;
 	top: 0;
 	left: 0;
