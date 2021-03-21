@@ -3,16 +3,16 @@
 body{
 	margin: 0;
 	/*background: url('../images/space.png');*/
-	background-color: black;
+	background-color: #e6ecff;
 	/*background-repeat: repeat;
 	background-size: cover; */
 	color: black;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Sansita Swashed', cursive;
 	font-weight: 200;
 }
 
 h1, h2, h3, h4, p {
-	margin-top: 0;
+	margin-top: 2em;
 	margin-bottom: 1em;
 }
 
@@ -45,14 +45,15 @@ h1, h2 {
 }
 
 #logo img, .item img {
-	width: 100%;
+	width: 90%;
 	height: auto;
+	align-items: center;
 }
 
 .item span {
 	background: blue;
 	margin: 10px;
-	display: block;
+	
 	width: 50%;
 	float: right;
 }
@@ -62,6 +63,7 @@ h1, h2 {
 }
 
 #content {
+	width: 100%;
 	/*background: red;*/
 }
 
@@ -91,17 +93,17 @@ h1, h2 {
 }
 
 .quote-holder {
-	height: 40vh;
-	background: #e6ecff;
+	height: 20vh;
+	background: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 0 3em;
-	margin-bottom: 2em;
+	padding: 0 0em;
+	margin-bottom: 0em;
 }
 
 .quote {
-	font-size: 2em
+	font-size: 1em
 }
 
 
